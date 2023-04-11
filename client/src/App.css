@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(180, 197, 197);
+}
+
+.information input {
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 260px;
+  height: 50px;
+  margin-top: 15px;
+  background-color: rgb(2, 42, 153);
+  color: White;
+  text-transform: capitalize;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(87, 96, 177);
+  transition: 0.3s;
+}
+
+.employees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(236, 236, 236);
+}
+
+.employee {
+  width: 500px;
+  height: auto;
+  border: 1px solid green;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+}
+
+.employee h3 {
+  margin: 20px;
+}
